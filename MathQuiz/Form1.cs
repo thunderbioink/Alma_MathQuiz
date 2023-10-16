@@ -40,8 +40,6 @@ namespace MathQuiz
         // remaining time.
         int timeLeft;
 
-        
-
         /// <summary>
         /// Start the quiz by filling in all of the problems
         /// and starting the timer.
@@ -102,7 +100,6 @@ namespace MathQuiz
             timer1.Interval = 1000; // Set the timer interval to one second
         }
 
-
         private void Form1_Load(object sender, EventArgs e)
         {
             
@@ -117,10 +114,6 @@ namespace MathQuiz
             timeLabel.Text = "30 seconds";
             timer1.Start();
         }
-
-        /// <summary>
-        /// Check the answers to see if the user got everything right.
-        /// </summary>
         /// <returns>True if the answer's correct, false otherwise.</returns>
         private bool CheckTheAnswer()
         {
@@ -178,7 +171,6 @@ namespace MathQuiz
 
             }
         }
-
         private void sum_ValueChanged(object sender, EventArgs e)
         {
             
